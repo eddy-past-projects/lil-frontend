@@ -5,7 +5,8 @@ import ImageCard from '../components/ImageCard';
 class ImagesContainer extends React.Component {
 	state = {
 		images: [],
-		image: {}
+		image: {},
+		selected: 4
 	};
 
 	componentDidMount() {
@@ -16,6 +17,10 @@ class ImagesContainer extends React.Component {
 				this.setState({ images: resp });
 			});
 	}
+
+	handleClick = (id) => {
+		this.setState({ selected: id });
+	};
 
 	renderSingleCard = (e) => {
 		let cardId = e.target.dataset.id;
