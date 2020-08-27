@@ -1,7 +1,7 @@
 import React from 'react';
-import Sidebar from './Sidebar';
+// import Sidebar from './Sidebar';
 
-import { Card, Image } from 'semantic-ui-react';
+// import { Card, Image } from 'semantic-ui-react';
 
 class Characters extends React.Component {
 	// renderImages(allImages) {

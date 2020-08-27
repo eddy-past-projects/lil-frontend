@@ -8,7 +8,7 @@ import CardOverview from './CardOverview';
 
 class Sidebar extends Component {
 	render() {
-		console.log(this.props);
+		// console.log(this.props);
 		return (
 			<div>
 				<section className="sidebar">

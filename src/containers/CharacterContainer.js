@@ -15,7 +15,7 @@ class CharacterContainer extends Component {
 	};
 
 	render() {
-		console.log(this.state.selected);
+		// console.log(this.state.selected);
 		return (
 			<div>
 				<Sidebar onClick={this.handleClick} />
