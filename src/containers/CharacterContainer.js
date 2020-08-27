@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 // Components
 import Content from '../components/Content';
 import Sidebar from '../components/Sidebar';
-// import Characters from './components/Characters';
+// import AllCharacters from './components/AllCharacters';
 
 class CharacterContainer extends Component {
 	state = {

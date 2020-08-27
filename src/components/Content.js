@@ -1,9 +1,9 @@
 import React from 'react';
 // import Images from '../components/Images';
 // import ImageCard from '../components/ImageCard';
-import CardDetailed from './CardDetailed';
+import CardDetailedFilter from './CardDetailedFilter';
 import Sidebar from './Sidebar';
-import Characters from './Characters';
+import AllCharacters from './AllCharacters';
 
 class Content extends React.Component {
 	state = {
@@ -23,9 +23,9 @@ class Content extends React.Component {
 
 		return (
 			<div>
-				<CardDetailed characters={this.state} selected={this.props.selected} />
-				<Sidebar characters={this.state} />
-				<Characters characters={this.state} />
+				<CardDetailedFilter characters={this.state} selected={this.props.selected} />
+				{/* <Sidebar characters={this.state} /> */}
+				<AllCharacters characters={this.state} />
 			</div>
 		);
 	}
