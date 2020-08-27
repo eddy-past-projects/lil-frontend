@@ -7,7 +7,7 @@ import Sidebar from '../components/Sidebar';
 
 class CharacterContainer extends Component {
 	state = {
-		selected: 4
+		selected: 2
 	};
 
 	handleClick = (id) => {

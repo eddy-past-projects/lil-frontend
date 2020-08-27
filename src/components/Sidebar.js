@@ -12,6 +12,11 @@ class Sidebar extends Component {
 		return (
 			<div>
 				<section className="sidebar">
+					<CardOverview
+						// image={cloudImage}
+						// name="Cloud Strife"
+						onClick={() => this.props.onClick(1)}
+					/>
 					{/* <Search placeholder="Type in a character's name..." />
 					<CardOverview image={cloudImage} name="Cloud Strife" onClick={() => this.props.onClick(1)} />
 					<CardOverview
