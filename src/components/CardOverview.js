@@ -5,7 +5,7 @@ class CardOverview extends Component {
 		console.log(this.props);
 		return (
 			<div>
-				<section className="card-overview" onClick={this.props.onClick}>
+				<section className="card-overview" id={this.props.id} onClick={this.props.onClick}>
 					<img src={this.props.image} alt={this.props.name} />
 
 					<p>{this.props.name}</p>

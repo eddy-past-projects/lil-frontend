@@ -7,7 +7,7 @@ import Sidebar from '../components/Sidebar';
 
 class CharacterContainer extends Component {
 	state = {
-		selected: 2
+		selected: 0
 	};
 
 	handleClick = (id) => {
@@ -15,7 +15,7 @@ class CharacterContainer extends Component {
 	};
 
 	render() {
-		// console.log(this.state.selected);
+		console.log(this.state.selected);
 		return (
 			<div>
 				<Sidebar onClick={this.handleClick} />

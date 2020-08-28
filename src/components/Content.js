@@ -18,8 +18,8 @@ class Content extends React.Component {
 	}
 
 	render() {
-		// const { characters } = this.state;
-		// console.log(this.state, 'this.state');
+		const { characters } = this.state;
+		console.log(this.state, 'this.state');
 
 		return (
 			<div>

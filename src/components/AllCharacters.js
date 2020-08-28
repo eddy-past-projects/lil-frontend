@@ -15,6 +15,7 @@ class AllCharacters extends React.Component {
 						location={character.location}
 						image={character.image}
 						key={character.id}
+						id={character.id}
 					/>
 				))
 		);
@@ -23,7 +24,11 @@ class AllCharacters extends React.Component {
 	render() {
 		const { characters } = this.props;
 
-		return <div>{this.findAllCharacters(characters)}</div>;
+		return (
+			<div>
+				<div className="image-card">{this.findAllCharacters(characters)}</div>;
+			</div>
+		);
 	}
 }
 

@@ -5,8 +5,22 @@
 * {
 	box-sizing: border-box;
 }
+.main-container {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: auto;
+}
 
 .container {
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+	margin-top: 200px;
+}
+/* .container {
 	margin-top: 200px;
 	width: 100vw;
 	height: 100vh;
@@ -14,8 +28,8 @@
 	flex-wrap: wrap;
 	position: relative;
 	justify-content: center; /* position: absolute; */
-	border: 10px solid grey;
-}
+/* border: 10px solid grey; */
+/* }  */
 /* .image-card {
 	text-align: center;
 	letter-spacing: 1px;
